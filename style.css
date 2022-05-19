@@ -1,0 +1,292 @@
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: url(img/948.png) center/cover;
+    height: 580px;
+}
+
+header nav a {
+    color: white;
+    padding: 15px 14px 15px;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Libre Franklin';
+    transition: 1s;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header nav a:hover {
+    border: 2px white solid;
+    border-radius: 4px;
+}
+
+.h1 {
+    align-items: center;
+    display: flex;
+
+}
+
+.navd {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navd h1 {
+    font-size: 71px;
+    color: white;
+}
+
+.navd p {
+    font-family: 'IBM Plex Mono';
+    color: white;
+    font-size: 13px;
+    line-height: 50px;
+}
+
+.p {
+    line-height: 30px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background: #5AB963;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 70px;
+}
+
+.span1 {
+    font-weight: bold;
+}
+
+.maindiv1 {
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 70px;
+    font-family: 'Libre Franklin';
+}
+
+.span2 {
+    color: grey;
+}
+
+.border1 {
+    border: 1px #F7F7F7 solid;
+    height: 300px;
+    position: absolute;
+    align-items: flex-start;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+
+.border1 img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.border1 h4 {
+    line-height: 30px;
+    font-family: 'Libre Franklin';
+    margin-left: 30px;
+
+}
+
+.border1 p {
+    line-height: 20px;
+    margin-top: 10px;
+    color: #999999;
+    font-family: 'IBM Plex Mono';
+    margin-left: 30px;
+}
+
+
+.l1 {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 95px;
+
+}
+
+.mainimg {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.s1 {
+    font-weight: bold;
+}
+
+.o5 {
+    font-size: 24px;
+    font-family: 'Libre Franklin';
+}
+
+.s2 {
+    color: grey;
+    font-family: 'Libre Franklin';
+}
+
+.s3 {
+    margin: 115px 357px 119px 398px;
+    text-align: center;
+}
+
+.hr {
+    margin-top: 50px;
+    background-color: #999999;
+    height: 0.2px;
+}
+
+.mains1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.yu {
+    flex-direction: column;
+    display: flex;
+    width: 362px;
+    height: 108px;
+}
+
+.yu2 {
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.op {
+    font-weight: bold;
+
+}
+
+.op2 {
+    color: #999999;
+
+}
+
+.yu3 {
+    font-family: 'IBM Plex Mono';
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.h5 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.h6 {
+    text-align: center;
+    color: #5AB963;
+}
+
+.fse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fp {
+    font-size: 20px;
+    color: #5AB963;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fs1 {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.fp2 {
+    line-height: 30px;
+}
+
+.fs2 {
+    font-size: 20px;
+    color: #999999;
+}
+
+.p1 {
+    line-height: 30px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background: #5AB963;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 14px 15px 0px;
+}
+
+.footer {
+    background: #0A0E1A;
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.di9 {
+    color: #666666;
+    line-height: 30px;
+    margin-left: 0px;
+    
+}
+
+.qa {
+    display: flex;
+    margin-left: 200px;
+    color: #FFFFFF;
+}
+
+.qa p {
+    width: 117px;
+    height: 18px;
+    color: #FFFFFF;
+    line-height: 40px;
+
+}
+
+.qa2 {
+    display: flex;
+    justify-content: space-between;
+    height: 122px;
+    width: 70px;
+}
